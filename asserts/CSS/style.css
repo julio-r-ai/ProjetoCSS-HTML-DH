@@ -2,8 +2,33 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
+    font-family: 'Ropa Sans';
+    font-style: normal;
+
 }
 
-header{
-    
+
+
+
+
+footer {
+    background-color: #333333;
+    width: 100%;
+    max-width: 100%;
+    height: 35vh;
+    max-height: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .img7{
+    margin-left: 50px;
+    margin-top: 35px;
+}
+footer .endereco{
+    margin-right: 50px;
+    margin-top: 35px;
+}
+footer .endereco div a{
+    width: 500px;
 }
