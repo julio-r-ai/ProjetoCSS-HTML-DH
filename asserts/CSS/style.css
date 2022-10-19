@@ -2,28 +2,60 @@
     margin: 0%;
     padding: 0%;
     box-sizing: border-box;
-    font-family: 'Ropa Sans';
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-style: normal;
 
 }
 
+header{
+    height: 10vh;
+    max-height: 100%;
+    width: 100%;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+}
+
+.abas{
+    background-color: white;
+    text-align: end;
+    margin-right: 30px;
+    margin-bottom: ;
+}
+header img{
+    width: 30px;    
+}
+
+
+main{
+    display: flex;
+    margin: 20px;
+}
 
 
 
 
 footer {
     background-color: #333333;
-    width: 100%;
     max-width: 100%;
     height: 35vh;
     max-height: 100%;
     display: flex;
     justify-content: space-between;
+    
 }
 
-footer .img7{
+
+
+footer .imgMapa{
+    width: 250px;
+    max-width: 100%;
     margin-left: 50px;
     margin-top: 35px;
+}
+
+footer .imgRedes{
+    width: 30px;
 }
 footer .endereco{
     margin-right: 50px;
@@ -31,4 +63,9 @@ footer .endereco{
 }
 footer .endereco div a{
     width: 500px;
+}
+.redes img {
+    display: inline;
+    margin: 8px;
+    margin-right: 15px;
 }
