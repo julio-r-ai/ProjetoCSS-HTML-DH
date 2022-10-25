@@ -53,19 +53,25 @@ header h3{
     font-size: 18px;
 }
 
-main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 20px;
+
+
+
+
+img{
+    max-width: 100%;
+    display:block;
 }
 
-.banner1 img{
-    width: 1000px;   
+.banner1 div img{
+    text-align: center;
 }
+
+
+
+
 
 footer {
-    background-color: #777777    ;
+    background-color: #777777;
     max-width: 100%;
     height: 35vh;
     max-height: 100%;
